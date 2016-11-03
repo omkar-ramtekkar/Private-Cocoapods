@@ -36,4 +36,9 @@ TODO: Add long description of the pod here.
 #  s.public_header_files = 'OCMock'
   s.vendored_libraries = 'libOCMock.a'
 
+s.preserve_paths = 'libOCMock.a'
+s.library = 'OCMock'
+s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/libOCMock' }
+
+
 end
