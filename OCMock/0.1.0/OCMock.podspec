@@ -36,6 +36,7 @@ Think: What does it do? Why did you write it? What is the focus?
 
 #  s.public_header_files = 'OCMock'
 
+s.vendored_libraries = 'libOCMock.a'
 s.preserve_paths = 'libOCMock.a'
 s.library = 'OCMock'
 s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '$(PODS_ROOT)/OCMock' }
