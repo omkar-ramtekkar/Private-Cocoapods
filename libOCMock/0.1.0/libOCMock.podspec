@@ -34,7 +34,6 @@ TODO: Add long description of the pod here.
 #  s.source_files = 'OCMock'
 
 #  s.public_header_files = 'OCMock'
-  s.vendored_libraries = 'libOCMock.a'
 
 s.preserve_paths = 'libOCMock.a'
 s.library = 'OCMock'
